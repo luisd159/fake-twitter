@@ -1,0 +1,39 @@
+.main-container{
+    display: flex;
+    flex-direction:row;
+
+}
+
+.navside{
+    width: 15vw;
+    height: 100vh;
+}
+
+.main{
+    width: 55vw;
+    height: 100vh;
+    
+}   
+
+.searches{
+    width: 30vw;
+    height: 100vh;
+}
+
+section.navside ul li {
+    text-decoration: none;
+    list-style: none;
+}
+
+section.main {
+    display: flex;
+    flex-direction: column;
+}
+
+section.main div.search{
+    height: 20vh;
+}
+
+section.main div.content{
+    height: 80vh;
+}
